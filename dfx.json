@@ -1,0 +1,28 @@
+{
+  "canisters": {
+    "videoapp_backend": {
+      "main": "src/videoapp_backend/main.mo",
+      "type": "motoko"
+    },
+    "videoapp_frontend": {
+      "dependencies": [
+        "videoapp_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/videoapp_frontend/src/index.html"
+      },
+      "source": [
+        "src/videoapp_frontend/assets",
+        "dist/videoapp_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "version": 1
+}
