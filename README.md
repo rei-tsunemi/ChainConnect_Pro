@@ -1,5 +1,5 @@
 ## Overview
-IC Video is a peer-to-peer video meeting platform service deployed on the Internet Computer Network. Currently it allows for two (2) users to video chat with each other at a time. The protocol that allows us to connect via video is WebRTC. WebRTC, (Web RealTime Communication) is a browser technology for users for communicate with each other in real time. Here is the logic behind this app:
+ChainConnectPro is a peer-to-peer video meeting platform service deployed on the Internet Computer Network. Currently it allows for two (2) users to video chat with each other at a time. The protocol that allows us to connect via video is WebRTC. WebRTC, (Web RealTime Communication) is a browser technology for users for communicate with each other in real time. Here is the logic behind this app:
 
 - User 1 creates a room, and a Room Id is generated.
 - User 1 can then share this room Id with user 2 
@@ -9,7 +9,7 @@ IC Video is a peer-to-peer video meeting platform service deployed on the Intern
 - Once this is done, the 2 users are able to video chat!
 
 
-To learn more before you start working with IC Video, see the following documentation available online:
+To learn more before you start working with ChainConnectPro, see the following documentation available online:
 - [Quick Start](https://sdk.dfinity.org/docs/quickstart/quickstart-intro.html)
 - [SDK Developer Tools](https://sdk.dfinity.org/docs/developers-guide/sdk-guide.html)
 - [Motoko Programming Language Guide](https://sdk.dfinity.org/docs/language-guide/motoko.html)
